@@ -1,0 +1,72 @@
+::root {
+  --cor1 : hsl(174, 77%, 80%);
+  --cor2 : hsl(174, 86%, 45%);
+  --cor3 : hsl(14, 92%, 95%);
+  --cor4 : hsl(15, 100%, 70%);
+  --cor5 : hsl(226, 100%, 87%);
+  --cor6 : hsl(0, 0%, 100%);
+  --cor7 : hsl(230, 100%, 99%);
+  --cor8 : hsl(224, 65%, 95%);
+  --cor9 : hsl(225, 20%, 60%)
+  --cor10 : hsl(227, 35%, 25%);
+}
+ *{
+  margin: 0;
+  padding: 0;
+  
+ }
+
+body{
+  padding: 100px;
+  font-family: 'Manrope', sans-serif;
+  background-color: hsl(226, 100%, 87%);
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+ul{
+  list-style: none;
+}
+section{
+  margin-top: 30px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  align-items: center;
+}
+.pageview{
+  font-size: 0.755rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color:lightslategray;
+  font-weight: 700;
+}
+.preco{
+  font-size: 1.75rem;
+}
+input{
+  grid-column: 1/-1;
+}
+ul{
+  text-align: left;
+  font-size: 0.75rem;
+}
+li{
+  margin-bottom: 10px;
+}
+button{
+  padding: 10px 30px;
+  border: none;
+  background-color: steelblue;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+}
+ul{
+  grid-column: 1;
+}

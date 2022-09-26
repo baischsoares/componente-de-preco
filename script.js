@@ -8,7 +8,7 @@ anual.addEventListener('change', alterarValor)
 function alterarValor(){
   preco.innerText = valor.value;
   if(anual.checked){
-    let valorFinal = valor.value * 0.25;
+    let valorFinal = valor.value * 0.75;
     console.log(valorFinal)
     preco.innerText = valorFinal
   } 

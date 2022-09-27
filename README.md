@@ -1,4 +1,4 @@
-# componente-de-preco
+# Componente de Preço
 Projeto simples de um componente de preço interativo 
 
 ## Ideia do projeto
